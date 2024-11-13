@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Свадебный Сайт</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Свадьба Мечты</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#schedule">Расписание</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <h2>Добро пожаловать на нашу свадьбу!</h2>
+        <p>Присоединяйтесь к нам в этот особенный день.</p>
+        <button>RSVP</button>
+    </section>
+
+    <section id="about" class="about">
+        <h2>О нас</h2>
+        <p>Мы - [Имена], и мы рады поделиться с вами нашей историей любви.</p>
+        <img src="couple.jpg" alt="Наша история" />
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Галерея</h2>
+        <div class="gallery-grid">
+            <img src="photo1.jpg" alt="Фото 1" />
+            <img src="photo2.jpg" alt="Фото 2" />
+            <img src="photo3.jpg" alt="Фото 3" />
+            <img src="photo4.jpg" alt="Фото 4" />
+        </div>
+    </section>
+
+    <section id="schedule" class="schedule">
+        <h2>Расписание</h2>
+        <ul>
+            <li>14:00 - Церемония</li>
+            <li>15:00 - Фотосессия</li>
+            <li>17:00 - Ужин</li>
+            <li>19:00 - Танцы</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Контакты</h2>
+        <form>
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Свадьба Мечты. Все права защищены.</p>
+    </footer>
+</body>
+</html> 
